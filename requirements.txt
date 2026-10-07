@@ -1,0 +1,13 @@
+python-dotenv
+flask
+flask-cors
+youtube-transcript-api
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-community
+langchain-groq
+faiss-cpu
+sentence-transformers
+gunicorn
+
