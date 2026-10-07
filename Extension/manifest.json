@@ -1,13 +1,21 @@
+
 {
   "manifest_version": 3,
-  "name": "YouTube Summarizer AI",
-  "version": "1.0",
-  "permissions": ["activeTab"],
+  "name": "TubeMind AI",
+  "version": "1.0.0",
+  "description": "AI assistant for YouTube videos using RAG.",
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TubeMind AI"
+  },
+
+  "permissions": ["activeTab", "storage"],
+
   "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://tubemind-ai-ap91.onrender.com/*",
     "http://127.0.0.1:5000/*",
     "http://localhost:5000/*"
-  ],
-  "action": {
-    "default_popup": "popup.html"
-  }
+  ]
 }
